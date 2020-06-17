@@ -23,7 +23,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Installing Node
-    run: install -y nodejs
    uses: actions/setup-node@v2-beta
    with:
    node-version: 12.18
